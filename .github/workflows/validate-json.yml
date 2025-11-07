@@ -1,0 +1,36 @@
+
+name: Validate JSON file
+
+on:
+  pull_request:
+    branches:
+      - main
+    # Optional: only run if the file changes
+    paths:
+      - 'solutions.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+
+    env:
+      JSON_FILE: solutions.json   # 👈 single place to change the file path
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check file exists
+        run: |
+          if [ ! -f "$JSON_FILE" ]; then
+            echo "❌ Required file $JSON_FILE is missing."
+            exit 1
+          else
+            echo "✅ Found file: $JSON_FILE"
+          fi
+
+      - name: Validate JSON format
+        run: |
+          echo "Checking JSON syntax for $JSON_FILE ..."
+          jq . "$JSON_FILE" > /dev/null
+          echo "✅ $JSON_FILE is valid JSON."
