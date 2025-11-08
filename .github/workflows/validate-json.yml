@@ -5,16 +5,16 @@ on:
   pull_request:
     branches:
       - main
-    # Optional: only run if the file changes
     paths:
       - 'solutions.json'
+      - 'solutions.schema.json'
 
 jobs:
   validate-json:
     runs-on: ubuntu-latest
 
     env:
-      JSON_FILE: solutions.json   # 👈 single place to change the file path
+      JSON_FILE: solutions.json
 
     steps:
       - name: Checkout repository
@@ -34,3 +34,9 @@ jobs:
           echo "Checking JSON syntax for $JSON_FILE ..."
           jq . "$JSON_FILE" > /dev/null
           echo "✅ $JSON_FILE is valid JSON."
+          
+      - name: Validate JSON against schema
+        uses: vanekj/validate-json-action@v1
+        with:
+          schema: solutions.schema.json
+          pattern: solutions.json
