@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AoC Solutions Schema",
+  "type": "object",
+  "required": ["user"],
+  "properties": {
+    "user": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["userName", "solutions"],
+        "properties": {
+          "userName": { "type": "string" },
+          "solutions": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+              "type": "object",
+              "required": ["day"],
+              "properties": {
+                "day": { "type": "integer" },
+                "write-up": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "solution1": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "solution2": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+
