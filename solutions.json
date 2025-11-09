@@ -5,7 +5,7 @@
       "solutions": [
         {
           "day": 1,
-          "writeUp": "https://raw.githubusercontent.com/jburell/aoc2025/26635964b44a766be0952c943b29a6e6ac6c4c92/write-up/day1.md",
+          "writeUp": "https://github.com/jburell/aoc2025/blob/26635964b44a766be0952c943b29a6e6ac6c4c92/write-up/day1.md",
           "solution1": "https://github.com/jburell/aoc2025/blob/26635964b44a766be0952c943b29a6e6ac6c4c92/src/day1.gleam",
           "solution2": "https://github.com/jburell/aoc2025/blob/main/src/day1.gleam"
         }
