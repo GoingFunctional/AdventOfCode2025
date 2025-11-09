@@ -20,7 +20,7 @@
               "required": ["day"],
               "properties": {
                 "day": { "type": "integer" },
-                "write-up": {
+                "writeUp": {
                   "type": "string",
                   "format": "uri"
                 },
