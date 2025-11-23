@@ -6,7 +6,7 @@ It is a list of community provided solutions for the Advent of Code 2025, primar
 ## How to contribute
 - Send in a PR with links to your solutions and your GitHub username (so we can link to your profile)
 - You add them to this file: https://github.com/GoingFunctional/AdventOfCode2025/blob/main/solutions.json
-  - Using this scheme: https://github.com/GoingFunctional/AdventOfCode2025/blob/main/solutions.schema.json
+  - Using this schema: https://github.com/GoingFunctional/AdventOfCode2025/blob/main/solutions.schema.json
   - In short is says that:
     - `userName` is mandatory
     - `solutions` can be an empty list (and be populated with solutions later)
