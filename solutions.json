@@ -1,22 +1,8 @@
 {
-  "user":  [
+  "user": [
     {
       "userName": "jburell",
-      "solutions": [
-        {
-          "day": 2,
-          "writeUp": "https://github.com/jburell/aoc2025/blob/26635964b44a766be0952c943b29a6e6ac6c4c92/write-up/day1.md",
-          "solution1": "https://github.com/jburell/aoc2025/blob/26635964b44a766be0952c943b29a6e6ac6c4c92/src/day1.gleam",
-          "solution2": "https://github.com/jburell/aoc2025/blob/main/src/day1.gleam"
-        },
-        {
-          "day": 1,
-          "solution2": "https://github.com/jburell/aoc2025/blob/main/src/day1.gleam"
-        }
-      ]
-    },
-    {
-      "userName": "chreke"
+      "solutions": []
     }
   ]
 }
