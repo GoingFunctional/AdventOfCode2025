@@ -12,6 +12,10 @@
       "userName": "nybjorn",
       "solutions": [
         {
+          "day": 1,
+          "solution1": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day1"
+        },
+        {
           "day" : 2,
           "solution1": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day2",
           "solution2": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day2"
