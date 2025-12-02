@@ -2,7 +2,13 @@
   "user": [
     {
       "userName": "jburell",
-      "solutions": []
+      "solutions": [
+        {
+          "day": 1,
+          "solution1": "https://github.com/jburell/aoc2025/blob/main/src/day1_1.gleam",
+          "solution2": "https://github.com/jburell/aoc2025/blob/main/src/day1_2.gleam"
+        }
+      ]
     },
     {
       "userName": "kauppilainen",
