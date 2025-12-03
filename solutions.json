@@ -30,6 +30,11 @@
           "day" : 2,
           "solution1": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day2",
           "solution2": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day2"
+        },
+        {
+          "day" : 3,
+          "solution1": "https://github.com/nybjorn/AdventOfCode2025/blob/main/day3/src/gleamy_day_3.gleam",
+          "solution2": "https://github.com/nybjorn/AdventOfCode2025/blob/main/day3/src/gleamy_day_3.gleam"
         }
       ]
     },
