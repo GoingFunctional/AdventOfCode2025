@@ -52,8 +52,8 @@
       "solutions": [
         {
           "day": 1,
-          "solution1": "https://github.com/kek/advent-of-code-2025/blob/26fdba5c6806cff85633dcf4eb88c405b2074ff7/test/day1_test.gleam#L49",
-          "solution2": "https://github.com/kek/advent-of-code-2025/blob/26fdba5c6806cff85633dcf4eb88c405b2074ff7/test/day1_test.gleam#L56"
+          "solution1": "https://github.com/kek/advent-of-code-2025/blob/c355f5becc9a94159f837c1451461f879a1f506e/test/day1_test.gleam#L49",
+          "solution2": "https://github.com/kek/advent-of-code-2025/blob/c355f5becc9a94159f837c1451461f879a1f506e/test/day1_test.gleam#L56"
         }
       ]
     }
