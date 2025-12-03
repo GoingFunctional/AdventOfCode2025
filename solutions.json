@@ -11,6 +11,9 @@
         },{
           "day": 2,
           "solution1": "https://github.com/jburell/aoc2025/blob/main/src/day2_1.gleam"
+        },{
+          "day": 3,
+          "solution1": "https://github.com/jburell/aoc2025/blob/main/src/day3_1.gleam"
         }
       ]
     },
