@@ -32,6 +32,20 @@
           "solution2": "https://github.com/nybjorn/AdventOfCode2025/tree/main/day2"
         }
       ]
+    },
+    {
+      "userName": "jherrlin",
+      "solutions": [
+        {
+          "day": 1,
+          "solution1": "https://github.com/jherrlin/AoC-2025/blob/main/clojure/day1/day1.clj",
+          "solution2": "https://github.com/jherrlin/AoC-2025/blob/main/clojure/day1/day1.clj"
+        },{
+          "day": 2,
+          "solution1": "https://github.com/jherrlin/AoC-2025/blob/main/clojure/day2/day2.clj",
+          "solution2": "https://github.com/jherrlin/AoC-2025/blob/main/clojure/day2/day2.clj"
+        }
+      ]
     }
   ]
 }
