@@ -22,15 +22,15 @@
                 "day": { "type": "integer" },
                 "writeUp": {
                   "type": "string",
-                  "pattern": "^http?:\/\/.+"
+                  "pattern": "^http.?:\/\/.+"
                 },
                 "solution1": {
                   "type": "string",
-                  "pattern": "^http?:\/\/.+"
+                  "pattern": "^http.?:\/\/.+"
                 },
                 "solution2": {
                   "type": "string",
-                  "pattern": "^http?:\/\/.+"
+                  "pattern": "^http.?:\/\/.+"
                 }
               },
               "additionalProperties": false
